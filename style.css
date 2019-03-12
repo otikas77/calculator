@@ -1,0 +1,22 @@
+#root{
+  height: 100vh;
+}
+
+button:focus{
+  outline: none;
+}
+button:hover{
+  background-color: orange;
+  transition: 0.9s;
+  border: none;
+}
+.active{
+  background-color: orange;
+  box-shadow: inset 3px 3px 5px 0 rgba(0,0,0,.2);
+  border: none;
+}
+.disabled{
+  background-color: #DDDDDD;
+  color: black;
+  box-shadow: 3px 3px 5px 0 rgba(36,36,36,.2);
+}
