@@ -1,0 +1,27 @@
+h4{
+  margin: 0;
+  padding: 0;
+}
+.result{
+  width: 100%;
+  text-align: center;
+}
+.norm{
+  width: 100%;
+}
+
+.DailyQuantity{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.DailyQuantity h4{
+  line-height: 50px;
+}
+.DailyQuantity__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
