@@ -9,9 +9,10 @@
 .calculator__wrapper{
   width: 35vw;
   background-color: #E7E7E7;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 20px;
   box-shadow: 0 0 10px black;
-  margin-top: 50px;
 }
 .small{
   text-align: center;
@@ -22,7 +23,6 @@
   .calculator__wrapper{
     margin-top: 50px;
     width: 90vw;
-    height: auto;
   }
 }
 @media screen and (max-width: 412px){
